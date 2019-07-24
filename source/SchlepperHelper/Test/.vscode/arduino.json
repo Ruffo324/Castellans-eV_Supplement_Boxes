@@ -1,0 +1,5 @@
+{
+    "sketch": "Tests.ino",
+    "board": "WAV:avr:lardu_328p",
+    "port": "COM5"
+}

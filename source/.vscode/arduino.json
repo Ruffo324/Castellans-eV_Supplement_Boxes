@@ -1,0 +1,5 @@
+{
+    "port": "COM5",
+    "board": "WAV:avr:lardu_328p",
+    "sketch": "SchlepperHelper\\Test\\Tests.ino"
+}
