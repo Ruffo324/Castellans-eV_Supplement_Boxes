@@ -5,7 +5,7 @@
 |    A3     |   1       |   Elko, radial                    |   470µF               max 50V         |
 |    A3     |   2       |   Elko, radial                    |   10µF                max 50V         |
 |    B3     |   3       |   Resistor, metal layer           |   1,0 kOhm            max 1W          |
-|    C3     |   2       |   Resistor network                |   8 Resistors (1 in)  390 kOhm        |
-|    A2     |   all     |   Resistor network                |   8 Resistors (1 in)  390 kOhm        |
+|    C3     |   2       |   Resistor network                |   8 Resistors (1 in)  390 Ohm        |
+|    A2     |   all     |   Resistor network                |   8 Resistors (1 in)  10 kOhm        |
 |    B3     |   1       |   Ceramic capacitor               |   100N                                |
 |    A3     |   3       |   Transistor                      |   40v, 0, 2A, 0, 5W                   |

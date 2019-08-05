@@ -21,7 +21,7 @@
 /****************************************************************/
 
 // DON'T CHANGE. NEED'S THE SAME ON EACH MODULE! [^1]
-#define MODULE_SWITCHES 6                         // Amount of input switches on the module.
+#define MODULE_SWITCHES 15                        // Amount of input switches on the module.
 #define MODULE_NET_IDS_NEEDED MODULE_SWITCHES + 1 // (Switches + Heartbeat(1))
 
 // Module based configuration. (PLEASE CHANGE [^1])
@@ -56,12 +56,22 @@
 
 // Pin configuration -> [[SWITCH, PIN, NET_ID],...]
 const uint8_t switches[MODULE_SWITCHES][3] = {
-    {1, 2, (NET_ID_START)},
-    {2, 3, (NET_ID_START + 1)},
-    {3, 4, (NET_ID_START + 2)},
-    {4, 5, (NET_ID_START + 3)},
-    {5, 6, (NET_ID_START + 4)},
-    {6, 7, (NET_ID_START + 5)},
+    {1, A1, (NET_ID_START)},
+    {2, A2, (NET_ID_START + 1)},
+    {3, A3, (NET_ID_START + 2)},
+    {4, A4, (NET_ID_START + 3)},
+    {5, A5, (NET_ID_START + 4)},
+    {6, 1, (NET_ID_START) + 5},
+    {7, 2, (NET_ID_START + 6)},
+    {8, 3, (NET_ID_START + 7)},
+    {9, 4, (NET_ID_START + 8)},
+    {10, 5, (NET_ID_START + 9)},
+    {11, 6, (NET_ID_START + 10)},
+    {12, 7, (NET_ID_START + 11)},
+    {13, 8, (NET_ID_START + 12)},
+    {14, 9, (NET_ID_START + 13)},
+    {15, 10, (NET_ID_START + 14)},
+
 };
 
 /****************************************************************/
